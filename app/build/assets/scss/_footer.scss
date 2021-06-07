@@ -1,0 +1,192 @@
+//footer starts
+.footer {
+    // sign-up-bar
+  .sign-up{
+    background: $primary-color;
+    padding: 4rem;
+    .mail-box{
+        i{
+            font-size: 4rem;
+            padding-right: 33px;
+            color: #fda46c;
+
+        }
+    }
+    .sign-up-letter{
+        h4{
+            text-transform: capitalize;
+            color: #fff;
+            font-weight: 900;
+        }
+        p{
+            color: #fff;
+            font-size: 12px;
+            line-height: 2;
+        }
+    }
+    .sign-up-form{
+        button.suscribe {
+            position: absolute;
+            right: 0;
+            color: #fff;
+            top: 0;
+            transform: translate(10px ,10px);
+            font-size: 11px;
+            border: none;
+            background: #56555a;
+            border-radius: 8px;
+            padding: 4px 18px;
+            @media (min-width: 768px){
+                position: absolute;
+                right: 0px;
+                left: 286px;
+                color: #fff;
+                top: -3px;
+                transform: translate(10px, 10px);
+                font-size: 14px;
+                border: none;
+                background: #56555a;
+                border-radius: 8px;
+                padding: 7px 18px;
+            }
+        }
+        input#email {
+            width: 18rem;
+            position: relative;
+            text-transform: capitalize;
+            height: 3rem;
+            font-size: 11px;
+            padding: 0 13px;
+            border-color: transparent;
+            border-radius: 10px;
+            @media (min-width: 768px){
+                width: 24rem;
+            }
+        }
+    }
+    }
+    
+    ul li {
+      padding-bottom: 10px;
+    }
+    .top-bar-name-span {
+      font-size: 2rem;
+      text-transform: capitalize;
+      padding-left: 3px;
+      font-weight: 800;
+    }
+    i.fas {
+      font-size: 25px;
+      color: $primary-color;
+    }
+    h6 {
+      text-transform: uppercase;
+      padding: 28px 0;
+      font-weight: bold;
+    }
+    a {
+      color: #6a6a6a;
+      text-transform: capitalize;
+      font-size: 15px;
+    }
+    p.lead {
+      width: 75%;
+      font-size: 14px;
+      color: #aeaeae;
+      padding: 10px 0;
+      font-family: sans-serif;
+    }
+    .customer-area {
+      p {
+        font-size: 15px;
+        padding: 12px 0;
+      }
+      .live-chat {
+        .fas {
+          font-size: 38px;
+          color: gray;
+        }
+  
+        a {
+          color: #caa07b;
+          font-size: 15px;
+        }
+        .button {
+          background-color: #d6ddde;
+          color: #6e8ca6;
+        }
+      }
+    }
+    .social-links {
+      i.fab.fa-youtube.social-icons:hover {
+        background: #ffddc8;
+      }
+      i.fab.fa-linkedin-in:hover {
+        background:#e4f0f5;
+      color: #3a3a3a;
+      }
+      i.fab.fa-facebook-f:hover{
+        background-color: #e3f0f9;
+        color: #548dc0;
+    }
+    i.fab.fa-twitter:hover {
+      background: #e6f8fc;
+      color: #66c1f4;
+    }
+    i.fab.fa-instagram:hover{
+     color: #365899;
+      background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);
+    }
+      .social-icons {
+        padding: 1rem;
+        color: #aeaeae;
+        background-color: #f2f2f2;
+        border-radius: 15px;
+        margin-right: 10px;
+  
+        &:hover {
+          color: red;
+        }
+      }
+    }
+    .play-app-store {
+      img {
+        width: 39%;
+        margin-right: 26px;
+        padding-top: 1rem;
+      }
+    }
+  
+    .bottom-footer {
+      .copyright {
+        color: #a1a1a1;
+      }
+      .card-system {
+        li {
+          padding: 0 9px;
+          a {
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 600;
+          }
+        }
+        .vasi {
+          color: #a8c2d6;
+          font-style: italic;
+        }
+        .mastercard {
+          color: #d7aaad;
+          font-style: italic;
+        }
+        .paypal {
+          color: #c8e4eb;
+          font-style: italic;
+        }
+        .bitcoin {
+          color: #f9ddb7;
+          font-style: italic;
+        }
+      }
+    }
+  }
+  

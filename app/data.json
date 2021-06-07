@@ -1,0 +1,450 @@
+{
+  
+  "deals": [
+    {
+      "image": "./assets/images/item1.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    },
+    {
+      "image": "./assets/images/item2.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    },
+    {
+      "image": "./assets/images/item3.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    },
+    {
+      "image": "./assets/images/item3.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    },
+    {
+      "image": "./assets/images/item4.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    },
+    {
+      "image": "./assets/images/item5.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    },
+    {
+      "image": "./assets/images/item1.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    },
+    {
+      "image": "./assets/images/item2.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3",
+      "span": "$32.3"
+    }
+  ],
+  "search": [
+    {
+      "image": "./assets/images/watch.jpeg",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3",
+      "span": "$32.3"
+      
+    },
+    {
+      "image": "./assets/images/watch.jpeg",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3" ,
+      "span": "$32.3"
+    },
+    {
+      "image": "./assets/images/carousel2.jpg",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3",
+      "span": "$32.3" 
+    },
+    {
+      "image": "./assets/images/watch.jpeg",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3",
+      "span": "$32.3"
+    }
+  ],
+  "volunteer": [
+    {
+      "image": "./assets/images/watch.jpeg",
+      "title": "JOHNNY DOE",
+      "position": "LEADER"
+    },
+    {
+      "images": "./assets/images/leader2.jpeg",
+      "title": "EMILY PARKER",
+      "position": "LEADER"
+    },
+    {
+      "images": "./assets/images/leader1.jpeg",
+      "title": "NATALY BROWN",
+      "position": "LEADER"
+    },
+    {
+      "images": "./assets/images/leader2.jpeg",
+      "title": "JOHNNY DOE",
+      "position": "LEADER"
+    }
+  ],
+  "carousel-item": [
+    {
+      "image": "./assets/images/carousel2.jpg",
+      "title": "fitness and activity tracker",
+      "rate": "$124.25",
+      "strike": "$12.25"
+    },
+    {
+      "image": "./assets/images/sac.jpg",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    },
+    {
+      "image": "./assets/images/hoodie.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    },
+    {
+      "image": "./assets/images/T-shirt.jpg",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    },
+    {
+      "image": "./assets/images/carousel2.jpg",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3"
+    }
+  ],
+  "ratings": [
+    {
+      "title": "Powerful intellgence for prefection",
+      "paragraph": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam! lorem m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae ill quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,m ipsum dolor consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,"
+    
+    },
+    {
+      "title": " See the best picture no matter what yoo sit",
+      "paragraph": " Lorem ipsum dolor sit m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaqfacere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, amet consectetur  eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam!"
+    
+    }
+  ],
+
+  "content": [
+    {
+      "title": "Powerful intellgence for prefection",
+      "paragraph": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam! lorem m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae ill quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,m ipsum dolor consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,"
+    
+    },
+    {
+      "title": " See the best picture no matter what yoo sit",
+      "paragraph": " Lorem ipsum dolor sit m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaqfacere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, amet consectetur  eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam!"
+    
+    }
+  ],
+
+  "blog": [
+    {
+      "images": "assets/images/banner3.jpeg",
+      "title": "CAR SHOW EVENT PHOTOS 2016",
+      "date": "July 29 2016",
+      "organizer": "By skull",
+      "Description": "make donation to the needy people.Include every Bootstrap JavaScript plugin with one of our two nclude every Bootstrap JavaScript plugin with one of our tw"
+    },
+    {
+      "images": "./assets/images/banner2.jpeg",
+      "title": "RUN THE RUNWAY 2016",
+      "date": "July 29 2016",
+      "organizer": "By skull",
+      "Description": "make donation to the needy people.Include every Bootstrap JavaScript plugin with one of our two nclude every Bootstrap JavaScript plugin with one of our tw"
+    },
+    {
+      "images": "./assets/images/banner1.jpeg",
+      "title": "HOLIDAY GIFTS IN KIND",
+      "date": "July 29 2016",
+      "organizer": "By skull",
+      "Description": "make donation to the needy people.Include every Bootstrap JavaScript plugin with one of our two nclude every Bootstrap JavaScript plugin with one of our tw"
+    },
+    {
+      "images": "./assets/images/banner3.jpeg",
+      "title": "CRFC GOLF EVENT",
+      "date": "July 29 2016",
+      "organizer": "By skull",
+      "Description": "make donation to the needy people.Include every Bootstrap JavaScript plugin with one of our two nclude every Bootstrap JavaScript plugin with one of our tw"
+    },
+    {
+      "images": "./assets/images/banner2.jpeg",
+      "title": "HOPE KIDS HOLIDAY PARTY",
+      "date": "July 29 2016",
+      "organizer": "By skull",
+      "Description": "make donation to the needy people.Include every Bootstrap JavaScript plugin with one of our two nclude every Bootstrap JavaScript plugin with one of our tw"
+    },
+    {
+      "images": "./assets/images/banner1.jpeg",
+      "title": "FUTURE FOR KID PHOTO",
+      "date": "July 29 2016",
+      "organizer": "By skull",
+      "Description": "make donation to the needy people.Include every Bootstrap JavaScript plugin with one of our two nclude every Bootstrap JavaScript plugin with one of our tw"
+    },
+    {
+      "images": "./assets/images/banner3.jpeg",
+      "title": "RTF FOOTBALL CAMP",
+      "date": "July 29 2016",
+      "organizer": "By skull",
+      "Description": "make donation to the needy people.Include every Bootstrap JavaScript plugin with one of our two nclude every Bootstrap JavaScript plugin with one of our tw"
+    },
+    {
+      "images": "./assets/images/banner2.jpeg",
+      "title": "CHARITY PARTY HOUSE",
+      "date": "July 29 2016",
+      "organizer": "By skull",
+      "Description": "make donation to the needy people.Include every Bootstrap JavaScript plugin with one of our two nclude every Bootstrap JavaScript plugin with one of our tw"
+    }
+  ],
+
+  
+  "mainslider": [
+    {
+      "images": "./assets/images/Capture.png",
+      "title": "Powerful intellgence for prefection",
+      "paragraph": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam! lorem m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae ill quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,m ipsum dolor consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,"
+    
+    },
+    {
+      "images": "./assets/images/Capture2.png",
+      "title": "Powerful intellgence for prefection",
+      "paragraph": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam! lorem m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae ill quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,m ipsum dolor consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,"
+    
+    },
+    {
+      "images": "./assets/images/Capture3.png",
+      "title": "Powerful intellgence for prefection",
+      "paragraph": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam! lorem m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae ill quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,m ipsum dolor consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,"
+    
+    },
+    {
+      "images": "./assets/images/Capture4.png",
+      "title": "Powerful intellgence for prefection",
+      "paragraph": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam! lorem m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae ill quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,m ipsum dolor consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,"
+    
+    },
+    {
+      "images": "./assets/images/Capture5.png",
+      "title": " See the best picture no matter what yoo sit",
+      "paragraph": " Lorem ipsum dolor sit m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaqfacere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, amet consectetur  eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam!"
+    
+    }
+  ],
+
+  "lastcontent": [
+    {
+      "images": "./assets/images/item1.png",
+      "rate":"$1245.33",
+      "title": "fitness and tracker",
+      "paragraph": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam! lorem m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae ill quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,m ipsum dolor consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,"
+    
+    },
+    {
+      "images": "./assets/images/item2.png",
+      "rate":"$1245.33",
+      "title": "Air pods with ice",
+      "paragraph": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam! lorem m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae ill quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,m ipsum dolor consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,"
+    
+    },
+    {
+      "images": "./assets/images/item3.png",
+      "rate":"$1245.33",
+      "title": "x-box white color",
+      "paragraph": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam! lorem m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae ill quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,m ipsum dolor consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,"
+    
+    },
+    {
+      "images": "./assets/images/item4.png",
+      "title": "air posds with ic",
+      "rate":"$1245.33",
+      "paragraph": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam! lorem m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae ill quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,m ipsum dolor consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique,"
+    
+    },
+    {
+      "images": "./assets/images/item5.png",
+      "title": "super boost headphones",
+      "rate":"$1245.33",
+      "paragraph": " Lorem ipsum dolor sit m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, m ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit repellendus consectetur obcaecati eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaqfacere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, amet consectetur  eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum reprehenderit adipisci cumque quod facere? Non, minima! Maxime dolorem quae consequuntur at? Ex ea minima temporibus dolorem a, tempora fugiat eum, perspiciatis illo error eius similique, quasi aliquam!"
+    
+    }
+  ],
+  "weekProduct":[{
+    "image":"./assets/images/watch.jpeg",
+    "rate":"$1245.33",
+    "previousRate":"1300",
+    "title":"Macbook Pro 2020 ",
+    "title1":"260 SSD"
+  },{
+    "image":"./assets/images/watch.jpeg",
+    "rate":"$33.33",
+    "previousRate":"2222",
+    "title":"Ultra Book Thin",
+    "title1":"Laptopxl-01"
+  },{
+    "image":"./assets/images/watch.jpeg",
+    "rate":"$33.33",
+    "previousRate":"2222",
+    "title":"1 set magic",
+    "title1":"Equipments"
+  }],
+  
+  "delivery":[{
+    "image":"fas fa-truck",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  },{
+    "image":"fas fa-star",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  },
+  {
+    "image":"fas fa-history",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  },
+  {
+    "image":"fas fa-comments",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  },
+  {
+    "image":"fas fa-credit-card",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  }],
+
+  "description_list_carousel":[{
+    "image":"../assets/images/brand1.png",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  },{
+    "image":"../assets/images/brand2.png",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  },
+  {
+    "image":"../assets/images/brand3.png",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  },
+  {
+    "image":"../assets/images/brand4.png",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  },
+  {
+    "image":"../assets/images/brand5.png",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  },
+  {
+    "image":"../assets/images/brand6.png",
+    "title":"Free Delivery ",
+    "title1":"brand"
+  }],
+
+  "products": [
+    {
+      "image": "../assets/images/latest1.png",
+      "title": "Mackbook Pro 2020 with 260 SSD",
+      "rate": "$32.3",
+      "span": "(12)"
+      
+    },
+      {
+      "image": "../assets/images/latest2.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3",
+      "span": "$32.3"
+      
+    },
+    {
+      "image": "../assets/images/latest3.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3" ,
+      "span": "$32.3"
+    },
+    {
+      "image": "../assets/images/latest4.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3",
+      "span": "$32.3" 
+    },
+    {
+      "image": "../assets/images/latest5.png",
+      "title": "fitness and activity tracker",
+      "rate": "$32.3",
+      "span": "$32.3"
+    }
+  ],
+  "barstar": [
+    {
+      "star": "32.3"
+     
+      
+    },
+    {
+      "star": "32.3"
+     
+      
+    },
+    {
+      "star": "32.3"
+     
+      
+    },
+    {
+      "star": "32.3"
+     
+      
+    },
+      {
+        "star": "30"
+      
+    }
+  ],
+
+  "nav-link": [
+    {
+      "nav-title": "accessories"
+    },
+
+    {
+      "nav-title": "samrtphone"
+    },
+
+    {
+      "nav-title": "computers"
+    },
+
+    {
+      "nav-title": "Gaming equipments"
+    },
+
+    {
+      "nav-title": "Tv & monitors"
+    },
+
+    {
+      "nav-title": "headphones"
+    },
+
+    {
+      "nav-title": "speaker"
+    },
+
+    {
+      "nav-title":"hot deals"
+    }
+  ]
+  
+  
+}

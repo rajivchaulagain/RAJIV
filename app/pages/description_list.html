@@ -1,0 +1,472 @@
+{% extends "layout.njk" %} {% block content %} {% include "partials/header.html"
+%}
+<div id="description_list">
+  <!-- bread-crumb section -->
+  <section class="description">
+    <div class="container">
+      <div class="row">
+        <nav aria-label="breadcrumb ">
+          <ol class="breadcrumb breadcrumb-nav">
+            <li class="breadcrumb-item">
+              <a href="#" class="active">Home</a>
+            </li>
+            <li class="breadcrumb-item" aria-current="page">
+              <a href="#" class="active">TV & Monitors</a>
+            </li>
+            <li class="breadcrumb-item" aria-current="page">
+              <a href="#">led</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!--breadcrumb-section-ends-->
+  <!-- main-description -->
+  <section class="main-description">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="card-img">
+            <img src="../assets/images/carousel2.jpg" alt="" />
+          </div>
+          <div class="social-links pb-4">
+            <span class="pr-2">Share</span>
+            <i class="fab fa-linkedin-in social-icons"></i>
+            <i class="fab fa-twitter social-icons"></i>
+            <i class="fab fa-facebook-f social-icons"></i>
+            <i class="fab fa-whatsapp social-icons"></i>
+            <i class="fab fa-instagram social-icons"></i>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="content-wrapper-description">
+            <span class="text-muted">sku 12314511241</span>
+            <h6>led monitor with high quality in the world</h6>
+            <div class="sub-text d-flex">
+              <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"><small>(12)</small></span>
+              </div>
+              <div class="sold">
+                <i class="fas fa-check"></i
+                ><span class="font-weight-bold">4,320</span> <span>Sold</span>
+              </div>
+              <div class="viewed">
+                <i class="fas fa-eye"></i
+                ><span class="font-weight-bold">1,4k</span><span>Viewed</span>
+              </div>
+              <div class="wishlist d-none d-md-block pl-5">
+                <i class="fas fa-heart"></i
+                ><span class="wishlist-add pl-2">add to wishlist</span>
+              </div>
+            </div>
+          </div>
+          <div class="price-tag-wrapper">
+            <span class="price-tag"> $976.33 </span>
+            <strike> <span class="price-tag-old">
+              $12.33</span></strike>
+              <span class="badge bg-success text-white">20%</span>
+          </div>
+          <hr />
+          <div class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              eum facere distinctio itaque, at ratione,
+            </p>
+            <ul>
+              <li>-direct full array</li>
+              <li>-direct full array</li>
+              <li>-direct full array</li>
+              <li>-direct full array</li>
+            </ul>
+          </div>
+          <div class="row justify-content-between">
+            <div class="screensize">
+              <h6>Screen size</h6>
+            </div>
+            <div class="btn-form">
+              <span class="btn btn-outline-secondary"> 14-inch</span>
+              <span class="btn btn-outline-secondary"> 24-inch</span>
+              <span class="btn btn-outline-secondary"> 32-inch</span>
+              <span class="btn btn-outline-secondary"> 60-inch</span>
+            </div>
+          </div>
+          <div class="row justify-content-between my-5">
+            <div class="btn-form-last">
+              <span class="btn btn-outline-secondary"> 14-inch</span>
+            </div>
+            <div class="cart-buy">
+              <span class="btn btn-outline-secondary buy"> Buy </span>
+              <span class="btn btn-outline-secondary add"> Add to cart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end of section -descrption-of-items-->
+  <!-- starts rating and review section -->
+  <section class="specification">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <div class="reviews">
+            <div class="rating-first text-center">
+              <span>
+                <b class="big">4.0</b> <span><small>/5</small></span>
+              </span>
+              <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <p>223 reviews</p>
+            </div>
+            <!--progress-bar-->
+            {%for data in barstar%}
+            <div class="bar-star">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span
+              ><span class="float-right">{{ data.star }}</span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar bg-warning"
+                role="progressbar"
+                style="width: 60%"
+                aria-valuenow="60"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            {%endfor%}
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          <div class="main-wrapper">
+              <div class="nav">
+                  <ul>
+                      <li><a href="#">description</a></li>
+                      <li><a href="#">specification</a></li>
+                      <li><a href="#">discussion</a></li>
+                      <li><a href="#">reviews</a><small>(223)</small></li>
+                  </ul>
+              </div>
+            <h5 class="heading">See the best picture no matter what yoo sit</h5>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis reprehenderit repellendus consectetur obcaecati
+              eligendi libero quibusdam at aut numquam! Nemo a, cumque dolor
+              blanditiis vitae illum eaque? Quibusdam corporis fugit aut. Earum
+              reprehenderit adipisci cumque quod facere? Non, minima! Maxime
+              dolorem quae consequuntur at? Ex ea minima temporibus dolorem a,
+              tempora fugiat eum, perspiciatis illo error eius similique, quasi
+              aliquam!
+            </p>
+            <figure>
+              <img src="../assets/images/newoffice.PNG" alt="" />
+            </figure>
+            {% for data in ratings %}
+            <h5 class="heading">{{ data.title }}</h5>
+            <p class="paragraph">{{ data.paragraph }}</p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--content slider-->
+<section class="slider-content">
+  <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+          <h2>product slider</h2>
+          <div>
+                <i class="fas fa-chevron-left pr-5" href="#carouselExampleControls"  data-slide="prev"></i>
+                <i class="fas fa-chevron-right" href="#carouselExampleControls"  data-slide="prev"></i>
+          </div>
+         
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              {% for data in mainslider %}
+              <div class="col-lg col-sm-12 ">
+                <img class="d-block w-100" src="{{ data.images }}" alt="First slide">
+                <div class="img-content text-center">
+                    <h6>$243.22</h6>
+                    <strike>1,300</strike>
+                    <h5>Mkabook pro 2020
+                        <br>
+                        260ssd
+                    </h5>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              {% for data in mainslider %}
+              <div class="col-lg col-sm-12 ">
+                <img class="d-block w-100" src="{{ data.images }}" alt="First slide">
+                <div class="img-content text-center">
+                  <h6>$243.22</h6>
+                  <strike>1,300</strike>
+                  <h5>Mkabook pro 2020
+                      <br>
+                      260ssd
+                  </h5>
+              </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              {% for data in mainslider %}
+              <div class="col-lg col-sm-12 ">
+                <img class="d-block w-100" src="{{ data.images }}" alt="First slide">
+                <div class="img-content text-center">
+                    <h6>$243.22</h6>
+                    <strike>1,300</strike>
+                    <h5>Mkabook pro 2020
+                        <br>
+                        260ssd
+                    </h5>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="last-content">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center my-5">
+          <h2>product slider</h2>
+          <div>
+              <i class="fas fa-chevron-left pr-5" href="#carouselExampleControls"  data-slide="prev"></i>
+              <i class="fas fa-chevron-right" href="#carouselExampleControls"  data-slide="prev"></i>
+          </div>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+            {% for data in lastcontent %}
+            <div class="col-lg col-sm-12">
+              <div class="card-wrapper d-flex">
+                <div class="row">
+                <div class="col-6">
+                <div class="card "> <img class="card-img-top" src="{{ data.images }}" />
+                </div>
+                </div>
+                <div class="col-6">
+                <div class="content-wrapper">
+                <h6>{{data.title}}</h6>
+                <span class="rate">{{data.rate}}</span>
+                <div class="rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"><small>(12)</small></span>
+                </div>
+                </div>
+                </div>
+                </div>
+              </div>
+              </div>
+            {% endfor %}
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+            {% for data in lastcontent %}
+            <div class="col-lg col-sm-12">
+              <div class="card-wrapper d-flex">
+                <div class="row">
+                <div class="col-6">
+                <div class="card "> <img class="card-img-top" src="{{ data.images }}" />
+                </div>
+                </div>
+                <div class="col-6">
+                <div class="content-wrapper">
+                <h6>{{data.title}}</h6>
+                <span class="rate">{{data.rate}}</span>
+                <div class="rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"><small>(12)</small></span>
+                </div>
+                </div>
+                </div>
+                </div>
+              </div>
+              </div>
+            {% endfor %}
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+            {% for data in lastcontent %}
+            <div class="col-lg col-sm-12">
+              <div class="card-wrapper d-flex">
+                <div class="row">
+                <div class="col-6">
+                <div class="card "> <img class="card-img-top" src="{{ data.images }}" />
+                </div>
+                </div>
+                <div class="col-6">
+                <div class="content-wrapper">
+                <h6>{{data.title}}</h6>
+                <span class="rate">{{data.rate}}</span>
+                <div class="rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"><small>(12)</small></span>
+                </div>
+                </div>
+                </div>
+                </div>
+              </div>
+              </div>
+            {% endfor %}
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        </section>
+    <!-- deliver-section -->
+    <div class="delivery">
+      <div class="container">
+        <div class="row justify-content-center">
+          {% for delivery in delivery %}
+          <div class="col-lg-2 col-md-3 col-sm-12 mb-3">
+            <div class="card">
+              <div class="img">
+                <i class="{{ delivery.image }}"></i>
+              </div>
+              <div class="content">
+                <h6>
+               {{delivery.title}}
+                </h6>
+                <p>{{ delivery.title1 }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  <!-- end of deliver -->
+    <div class="container description_list_carousel">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                {% for data in description_list_carousel %}
+                <div class="col-sm-2">
+                  <div class="thumb-wrapper">
+                    <div class="img-box">
+                      <img src="{{ data.image }}" class="img-fluid" alt="">
+                    </div>					
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="thumb-wrapper">
+                    <div class="img-box">
+                      <img src="{{ data.image }}" class="img-fluid" alt="">
+                    </div>						
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="thumb-wrapper">
+                    <div class="img-box">
+                      <img src="../assets/images/brand1.png" class="img-fluid" alt="">
+                    </div>						
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="thumb-wrapper">
+                    <div class="img-box">
+                      <img src="../assets/images/brand4.PNG" class="img-fluid" alt="">
+                    </div>				
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="thumb-wrapper">
+                    <div class="img-box">
+                      <img src="../assets/images/brand2.png" class="img-fluid" alt="">
+                    </div>					
+                  </div>
+                </div>						
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="thumb-wrapper">
+                    <div class="img-box">
+                      <img src="../assets/images/brand5.PNG" class="img-fluid" alt="">
+                    </div>					
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="thumb-wrapper">
+                    <div class="img-box">
+                      <img src="../assets/images/brand7.PNG" class="img-fluid" alt="">
+                    </div>						
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="thumb-wrapper">
+                    <div class="img-box">
+                      <img src="../assets/images/brand6.PNG" class="img-fluid" alt="">
+                    </div>					
+                  </div>
+                </div>	
+                <div class="col-sm-3">
+                  <div class="thumb-wrapper">
+                    <div class="img-box">
+                      <img src="../assets/images/brand5.PNG" class="img-fluid" alt="">
+                    </div>					
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Carousel controls -->
+          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+{% include "partials/footer.html" %} {% endblock %}

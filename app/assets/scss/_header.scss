@@ -1,0 +1,131 @@
+
+.header{
+    box-shadow: 0 0 2px 25px #f8f8f8; 
+  
+  .top-bar{
+    background: $primary-color;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 8px 3px #d9a06f;
+  
+    i.fas{
+      color: #fff;
+      padding: 0 14px;
+      @media (min-width: 768px){
+        
+      }
+    }
+    a,
+    select{
+      font-size: 10px;
+      @media (min-width: 768px){
+        font-size: 14px;;
+      }
+    }
+    select{
+      background: transparent;
+      color: #fff;
+      margin-left: 19px;
+      border-color: transparent;
+    }
+    .mail-location{
+      font-size: 10px;
+      padding-top: 14px;
+      @media (min-width: 768px){
+        font-size: 1rem;
+      }
+    }
+    .location-order {
+      font-size: 10px;
+      padding-top: 10px;
+      .truck{
+        border-right: 1px solid #fff;
+        padding: 6px 29px 12px 0px;
+      }
+      @media (min-width: 768px){
+        font-size: 1rem;
+      }
+    }
+  
+    ul li{
+      display: inline;
+    }
+  }
+  .navabar1{
+    li{
+      display: inline;
+    }
+    a{
+      color: #7c7c7c;
+      text-transform: capitalize;
+      padding: 0 8px;
+      font-size: 10px;
+      @media (min-width: 768px){
+        font-size: 13px;
+        font-weight: 600;
+        padding: 0 13px;
+        color: #7c7c7c;
+      }
+  
+    }
+  
+    i.fa-fire-alt{
+      color: red;
+    }
+  }
+  
+  .navbar2{
+    background: transparent !important;
+  .navbar-brand{
+    .top-bar-name-span{
+      font-size: 40px;
+      font-weight: 700;
+    }
+    i.fas.fa-bolt {
+      font-size: 32px;
+      color: $primary-color;
+  }
+  }
+  i.fas.fa-search{
+    color: $primary-color;
+  }
+  @media (min-width: 768px){
+  input#email {
+    width: 29rem;
+    height: 54px;
+    border-radius: 10px;
+    background: #f2f1f6;
+    text-align: left;
+    padding: 21px;
+    border-color: transparent;
+  }
+  .search-bar{
+    background: #f2f1f6;
+    }
+  }
+  .navbar-nav li {
+    padding: 0 14px;
+  .hotdeals{
+    text-transform: uppercase !important;
+      font-weight: bold;
+      color: #000;
+      
+  }
+  }
+  .navbar-nav{
+    .icons{
+      font-size: 19px;
+    }
+  }
+  .donate_button .button{
+    padding: 11px 17px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 0 11px 7px #f7e0cf;
+    border-color: transparent;
+    text-transform: uppercase;
+    background: #fd7424;
+  }
+  
+  }
+  }
+  

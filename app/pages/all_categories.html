@@ -1,0 +1,301 @@
+{% extends "layout.njk" %}
+{% block content %} 
+<div id="all-categories">
+{% include "partials/header.html" %}
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-md-12">
+                <div class="all-categories_sidebar">
+                    <h6>Show all categories</h6>
+                    <ul>
+                       <li> <a data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false"
+                            aria-controls="collapseExample1">
+                            Laptop & computers
+                        </a></li>
+                        <div class="collapse" id="collapseExample1">
+                            <div class="card-body">
+                              <ul>
+                                  <li><a href="#">hardware <span>(25)</span></a></li>
+                                  <li><a href="#">software <span>(30)</span></a></li>
+                                  <li><a href="#">software <span>(30)</span></a></li>
+                                  <li><a href="#">software <span>(30)</span></a></li>
+                                  <li><a href="#">software <span>(30)</span></a></li>
+                              </ul>
+                            </div>
+                        </div>
+                      <li>  <a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
+                        aria-controls="collapseExample2">
+                     smart phones
+                    </a>
+                    </li>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card-body">
+                          <ul>
+                              <li><a href="#">hardware <span>(25)</span></a></li>
+                              <li><a href="#">software <span>(30)</span></a></li>
+                              <li><a href="#">software <span>(30)</span></a></li>
+                              <li><a href="#">software <span>(30)</span></a></li>
+                              <li><a href="#">software <span>(30)</span></a></li>
+                          </ul>
+                        </div>
+                    </div>
+                    <li>  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                        aria-controls="collapseExample">
+                    T.V
+                    </a>
+                    </li>
+                    <li>  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                        aria-controls="collapseExample">
+                     Wireless Hardware
+                    </a>
+                    </li>
+                    <li>  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                        aria-controls="collapseExample">
+                     Wireless Hardware
+                    </a>
+                    </li>
+                    <li>  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                        aria-controls="collapseExample">
+                     Wireless Hardware
+                    </a>
+                    </li>
+                    <li>  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                        aria-controls="collapseExample">
+                     Wireless Hardware
+                    </a>
+                    </li>
+                    <li>  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                        aria-controls="collapseExample">
+                     Virtual rality
+                    </a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="filters">
+                    <h4>Filters</h4>
+                    <label for="customRange1" class="form-label">Example range</label>
+                    <br>
+                    <input type="range" class="form-range" id="customRange1">
+                    <select class="form-select new" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <br>
+                      <select class="form-select new" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="color-picker mt-3">
+                    <div class="div pb-3">
+                    <p class="float-md-left">
+                        Color
+                    </p>
+                    <span class="float-right"><i class="fas fa-check-circle"></i>select all</span>
+                    </div>
+                    <div class="btn-last">
+                    <button class="btn btn-outline-danger btn-btn-last">white</button>
+                    <button class="btn btn-outline-danger btn-btn-last">white</button>
+                    <br>
+                    <button class="btn btn-outline-danger btn-btn-last">white</button>
+                    <button class="btn btn-outline-danger btn-btn-last">white</button>
+                    <br>
+                    </div>
+                    <p class="show-more"><i class="fas fa-plus"></i> &nbsp;<a>Show more</a></p>
+                    <br>
+                    <button class="filters-btn">filter</button>
+                    <br>
+                    <button class="reset">reset filters</button>
+                </div>
+            </div>
+            <!--end of 1st column block-->
+            <div class="col-xl-9 col-lg-9 col-md-9 col-md-12 order-first order-md-2">
+                <div class="img-background">
+                    <div class="col-lg-6 col-sm-12 contents-image">
+                        <p class="lead">most viewed categories</p>
+                        <h3>laptop & computers categories</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error,
+                            corporis!
+                        </p>
+                    </div>
+                </div>
+                <div class="latest-product">
+                    <div class="products float-left">
+                        <h5>laptop products</h5>
+                        <p class="lead">Showing 9 out of 12</p>
+                    </div>
+                    <ul class="float-right">
+                        <li><a href="#" class="show">show by</a></li>
+                        <li>
+                            <i class="fas fa-check-circle"></i><a href="#"> popularity</a>
+                        </li>
+                        <li><i class="fas fa-check-circle"></i><a href="#"> newest</a>#</li>
+                        <li>
+                            <i class="fas fa-check-circle"></i> <a href="#">trending</a>#
+                        </li>
+                        <li><i class="fas fa-border-all"></i></li>
+                        <li><i class="fas fa-border-all"></i></li>
+                    </ul>
+                </div>
+                    {% for data in products %}
+                    <div class="row latest-product_contents mb-5">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="img-box">
+                            <img src="{{ data.image }}" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"><small>{{ data.span }}</small></span>
+                        </div>
+
+                        <h5>{{ data.title }}</h5>
+                        <p>SKU1233435</p>
+                        <ul class="lists">
+                            <li><i class="fas fa-check"></i> &nbsp; direct full array</li>
+                            <li>
+                                <i class="fas fa-check"></i> &nbsp; quantum dot technology
+                            </li>
+                            <li><i class="fas fa-check"></i> &nbsp; ambident mode</li>
+                            <li><i class="fas fa-check"></i> &nbsp; one remote control</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 delivery-item">
+                        <i class="fas fa-truck pr-3"></i><span class="pr-4">free delivery</span>
+                        <i class="fas fa-truck pr-3"></i><span>voucher 95%</span>
+                        <br />
+                        <strike class="stiked">$33.3</strike>
+                        <h4>$546.3</h4>
+                        <div class="btn btn-outline add_card">
+                            <i class="fas fa-shopping-cart"></i>Add to cart
+                        </div>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    </div>
+                {% endfor %}
+                <!--pagination-->
+                <nav aria-label="...">
+                    <ul class="pagination pagination-lg justify-content-center">
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">...</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </div>
+    <section class="last-content">
+		<div class="container">
+			<div class="row d-flex justify-content-between align-items-center pb-4 mt-5">
+				<h2>product slider</h2>
+				<div>
+					  <i class="fas fa-chevron-left pr-5" href="#carouselExampleControls"  data-slide="prev"></i>
+					  <i class="fas fa-chevron-right" href="#carouselExampleControls"  data-slide="prev"></i>
+				</div>
+			</div>
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <div class="row">
+					{% for data in lastcontent %}
+					<div class="col-lg col-sm-12">
+						<div class="card-wrapper d-flex">
+							<div class="row">
+							<div class="col-6">
+						  <div class="card "> <img class="card-img-top" src="{{ data.images }}" />
+						  </div>
+						  </div>
+						  <div class="col-6">
+						  <div class="content-wrapper">
+							<h6>{{data.title}}</h6>
+							<span class="rate">{{data.rate}}</span>
+							<div class="rating">
+							  <span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked"><small>(12)</small></span>
+							</div>
+						  </div>
+						  </div>
+						  </div>
+						</div>
+					  </div>
+					{% endfor %}
+				  </div>
+				</div>
+				<div class="carousel-item">
+				  <div class="row">
+					{% for data in lastcontent %}
+					<div class="col-lg col-sm-12">
+						<div class="card-wrapper d-flex">
+							<div class="row">
+							<div class="col-6">
+						  <div class="card "> <img class="card-img-top" src="{{ data.images }}" />
+						  </div>
+						  </div>
+						  <div class="col-6">
+						  <div class="content-wrapper">
+							<h6>{{data.title}}</h6>
+							<span class="rate">{{data.rate}}</span>
+							<div class="rating">
+							  <span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked"><small>(12)</small></span>
+							</div>
+						  </div>
+						  </div>
+						  </div>
+						</div>
+					  </div>
+					{% endfor %}
+				  </div>
+				</div>
+				<div class="carousel-item">
+				  <div class="row">
+					{% for data in lastcontent %}
+					<div class="col-lg col-sm-12">
+						<div class="card-wrapper d-flex">
+							<div class="row">
+							<div class="col-6">
+						  <div class="card "> <img class="card-img-top" src="{{ data.images }}" />
+						  </div>
+						  </div>
+						  <div class="col-6">
+						  <div class="content-wrapper">
+							<h6>{{data.title}}</h6>
+							<span class="rate">{{data.rate}}</span>
+							<div class="rating">
+							  <span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked"></span>
+							  <span class="fa fa-star checked"><small>(12)</small></span>
+							</div>
+						  </div>
+						  </div>
+						  </div>
+						</div>
+					  </div>
+					{% endfor %}
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  </section>
+
+<div class="container">
+{% include "partials/footer.html" %} 
+</div>
+</div>
+{% endblock %}
